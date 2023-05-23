@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    bottom: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+}
+
+.navbar > ul, li{
+    list-style: none;
+    font-size: x-large;
+    margin: 10px;
+    position: relative;
+}
+
+.navbar > ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.navbar > ul > li > a{
+    padding: 6px 15px;
+    position: relative;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.navbar > ul > li > a:hover{
+    color: #181818;
+    background-color: #cecece;
+    border-radius: 10px;
+}
+
+.navbar{
+    background-color: #181818;
+    height: 80px;
+    top: 0px;
+    position: fixed;
+    width: 101%;
+    left: -10px;
+    opacity: 0.8;
+}
+
+.footer-basic {
+    padding:40px 0;
+    background-color: #181818;
+    color:#4b4c4d;
+    margin-top: 600px;
+    position: relative;
+    opacity: 0.8;
+  }
+  
+.footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+    display: flex;
+    justify-content: center;
+  }
+  
+.footer-basic li {
+    padding:0 10px;
+    font-size: 20px;
+    color: #cecece;
+  }
+  
+.footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+.footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+.footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+.footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+.footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+.footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+
+.main > .texts > .text-IoT{
+    text-align: center;
+    color: #181818;
+    font-size: 60px;
+}
+
+.main > .texts > .subtitle-IoT{
+  text-align: center;
+  color: #181818;
+  font-size: 30px;
+}
+
+.main > .texts{
+  margin-top: 220px;
+}
