@@ -10,6 +10,7 @@
 .menu{
     padding-top: 200px;
     font-size: 20px;
+    position: fixed;
 }
 
 .menu > button{
@@ -25,7 +26,6 @@
     height: 40px;
     margin: 10px;
     margin-left: 220px;
-    width: 10%
 }
 
 .menu > button:hover{

@@ -7,13 +7,13 @@
 }
 
 img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 10;
 }
 
 .navbar > ul, li{
@@ -50,17 +50,62 @@ img{
     position: fixed;
     width: 101%;
     left: -10px;
-    opacity: 0.8;
+    opacity: 0.5;
+}
+
+.main > .texts > .text-IoT{
+  text-align: center;
+  color: #181818;
+  font-size: 100px;
+}
+
+.main > .texts > .subtitle-IoT{
+  text-align: center;
+  color: #181818;
+  font-size: 18px;
+  position: relative;
+  z-index: 2;
+  opacity: 0.8;
+}
+
+.main > .texts {
+  margin-top: 220px;
+  position: relative;
+  z-index: 2;
+}
+
+.main{
+  position: relative;
+  z-index: 1;
+}
+
+.buttons {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 80px;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.buttons > button{
+  color: #181818;
+  padding: 20px 30px;
+  border-radius: 20px;
+  border: none;
+  display: block;
+  cursor: pointer;
+  font-size: 20px;
 }
 
 .footer-basic {
-    padding:40px 0;
-    background-color: #181818;
-    color:#4b4c4d;
-    margin-top: 600px;
-    position: relative;
-    opacity: 0.8;
-  }
+  padding: 40px 0;
+  background-color: #181818;
+  color:#4b4c4d;
+  position: relative;
+  opacity: 0.7;
+  margin-top: 200px;
+}
   
 .footer-basic ul {
     padding:0;
@@ -120,18 +165,3 @@ img{
     margin-bottom:0;
   }
 
-.main > .texts > .text-IoT{
-    text-align: center;
-    color: #181818;
-    font-size: 60px;
-}
-
-.main > .texts > .subtitle-IoT{
-  text-align: center;
-  color: #181818;
-  font-size: 30px;
-}
-
-.main > .texts{
-  margin-top: 220px;
-}
