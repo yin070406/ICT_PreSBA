@@ -3,6 +3,28 @@ var button2 = document.getElementById("button2");
 var button3 = document.getElementById("button3");
 var text = document.getElementById("text");
 
+function show_image(src, width, height, alt) {
+  var img = document.createElement("img");
+  img.src = src;
+  img.style.width = width + "px";
+  img.style.height = height + "px";
+  img.alt = alt;
+
+  var container = document.createElement("div");
+  container.style.display = "flex";
+  container.style.justifyContent = "center";
+  container.style.alignItems = "center";
+  container.style.position = "absolute";
+  container.style.top = "0";
+  container.style.left = "0";
+  container.style.bottom = "0";
+  container.style.right = "0";
+  container.appendChild(img);
+
+  var menu = document.getElementsByClassName("menu");
+  menu.appendChild(container);
+}
+
 button1.addEventListener("click", function() {
   displayText("IoT is the network of physical objects or groups of objects that are equipped with sensors, processing capabilities, software, and other technologies to connect and exchange information with other devices and systems via the internet or other communication networks ");
 });
