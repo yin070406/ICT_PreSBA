@@ -1,5 +1,5 @@
-const buttonhome = document.getElementsByClassName("start")
+var buttonstart = document.getElementsByClassName("start")[0];
 
-buttonhome.addEventlistener("click", function(){
-    window.location.href = "/file/introduction/index.html"
+buttonstart.addEventListener("click", function() {
+  window.location.href = "/file/introduction/index.html";
 });
