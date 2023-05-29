@@ -165,3 +165,105 @@ img{
     margin-bottom:0;
   }
 
+  @media only screen and (max-width: 600px) {
+    /* Styles for phone users */
+  .main > .texts > .text-IoT{
+      font-size: 60px;
+  }
+    
+  .main > .texts > .subtitle-IoT{
+      font-size: 14px;
+    }
+    
+  .buttons > button{
+      font-size: 16px;
+    }
+    
+  .footer-basic ul {
+      font-size: 14px;
+    }
+
+  .navbar > ul {
+      flex-direction: column;
+      height: auto;
+    }
+      
+  .navbar > ul > li {
+      margin: 5px 0;
+    }
+      
+  .navbar > ul > li > a {
+      padding: 10px;
+      font-size: 20px;
+    }
+
+  .footer-basic ul {
+      font-size: 14px;
+    }
+      
+  .footer-basic .social > a {
+      font-size: 20px;
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      margin: 0 5px;
+    }
+      
+  .footer-basic .copyright {
+      font-size: 11px;
+      margin-top: 10px;
+    }
+  }
+    
+  @media only screen and (min-width: 600px) and (max-width: 1024px) {
+    .main > .texts > .text-IoT{
+      font-size: 80px;
+    }
+    
+  .main > .texts > .subtitle-IoT{
+      font-size: 16px;
+    }
+    
+  .buttons > button{
+      font-size: 18px;
+    }
+      
+  .footer-basic ul {
+      font-size: 16px;
+    }
+
+  .navbar > ul {
+      flex-direction: row;
+      height: auto;
+    }
+      
+  .navbar > ul > li {
+      margin: 0 10px;
+    }
+      
+  .navbar > ul > li > a {
+      padding: 6px 15px;
+      font-size: x-large;
+    }
+
+  .footer-basic{
+    margin-top: 420px;
+  }
+
+  .footer-basic ul {
+      font-size: 16px;
+    }
+      
+  .footer-basic .social > a {
+      font-size: 24px;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      margin: 0 8px;
+    }
+      
+  .footer-basic .copyright {
+      font-size: 13px;
+      margin-top: 15px;
+    }
+  }
